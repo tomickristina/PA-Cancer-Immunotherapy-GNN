@@ -1,0 +1,16 @@
+dataset_name: PA_all
+path: processed_data/PA_all
+save_model: results/PA_all_allele_0123_4.pth
+embeddings_path: models/PA_all/gene_and_allele_embeddings.pkl
+
+StrictTCR:
+  train_data:
+    file_list:
+      - allele_fold_0.csv
+      - allele_fold_1.csv
+      - allele_fold_2.csv
+      - allele_fold_3.csv
+  test_data:
+    file_list:
+      - allele_fold_4.csv
+

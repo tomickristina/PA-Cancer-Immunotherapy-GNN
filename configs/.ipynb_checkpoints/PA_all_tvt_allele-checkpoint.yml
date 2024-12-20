@@ -1,0 +1,16 @@
+dataset_name: PA_all_tvt_allele
+path: processed_data/PA_all_tvt
+save_model: results/PA_all_allele_tvt.pth
+embeddings_path: models/PA_all/gene_and_allele_embeddings.pkl
+
+StrictTCR:
+  train_data:
+    file_list:
+      - allele_train.csv
+  validation_data:
+    file_list:
+      - allele_validation.csv
+  test_data:
+    file_list:
+      - allele_test.csv
+
