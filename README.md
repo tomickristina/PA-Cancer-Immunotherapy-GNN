@@ -19,3 +19,10 @@ This project builds upon the code of [GTE](https://github.com/uta-smile/GTE.git)
 The scripts and files in this project are not intended to be used as out-of-the-box solutions. 
 Instead, they serve as a workbench for conducting analyses, running experiments, and training models. 
 They are designed to provide a flexible environment for research and experimentation, rather than offering a fully integrated or user-ready implementation.
+
+## Most relevant files
+The files used to obtain the latest results are the ones with *tvt* in the name.
+E.g. train_pa_all_tvt.py
+
+## Data and big files
+Original and processed datasets, as well as big files like embeddings are in the OneDrive-folder delivered for the project thesis.
