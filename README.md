@@ -31,5 +31,5 @@ The files used to obtain the latest results for the project thesis are:
 - pa_embeddings/embeddings_gnn.ipynb
 
   
-## Data and big files
+## Data
 Original and processed datasets, as well as big files like embeddings are in the OneDrive-folder delivered for the project thesis.
